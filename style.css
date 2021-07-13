@@ -2,6 +2,42 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;;
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 0 40px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 36px;
+}
+nav img{
+    height: 51px;
+    width: 51px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    align-items: center;
+    color: white;
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+    padding-right: 5px;   
 }
 main{
     display: flex;
@@ -84,7 +120,7 @@ hr{
     height: 269.79px;
     padding: 8px;
     border: 2px solid rgba(187, 187, 187, 0.445);
-    border-radius: 8%;
+    border-radius: 5%;
     box-shadow: 3px 3px 10px gray;
 }
 .child-course img{
